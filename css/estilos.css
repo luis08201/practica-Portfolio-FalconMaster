@@ -97,3 +97,57 @@
 .acerca__de span{
     color:var(--primercolor);
 }
+
+/*MAIN TRABAJO*/
+.main__page{
+    margin-top: 300px;
+}
+.main__trabajo{
+    width:100%;
+    height:858px;
+    background-color: var(--cuartocolor);
+}
+.trabajo__heading{
+    font-family: var(--fuente);
+    font-weight: 100;
+    font-size:34px;
+    text-align:center;
+    padding:40px 0;
+}
+.trabajo__proyecto{
+    margin:0 auto;
+    max-width:1000px;
+    height:639px;
+}
+.trabajo__proyecto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.proyecto__img{
+    max-width:235px;
+    height:235px;
+    width:100%;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 5px;
+}
+.proyecto__item{
+    margin:20px 0;
+}
+.proyecto__item figcaption{
+    text-align: center;
+}
+.proyecto__txt{
+    margin:16px auto 7px;
+    color:var(--primercolor);
+    font-family: var(--fuente);
+    font-size: 16px;
+    font-weight: bold;
+}
+.proyecto__desc{
+    font-size:14px;
+    color:var(--segundocolor);
+    font-family: var(--fuente);
+    font-weight: 100;
+}
