@@ -199,3 +199,41 @@
     font-size:20px;
     color:var(--cuartocolor);
 }
+/*
+FOOTER
+*/
+.footer{
+    width:100%;
+    height:200px;
+    background-color:var(--tercercolor);
+    padding:0.1px;
+}
+.footer__socialnetworks{
+    display: flex;
+    justify-content: center;
+    margin:57px auto 83px;
+}
+.socialnetwork__item{
+    color:var(--cuartocolor);
+    margin:0 20px;
+    width:100px;
+    height:60px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+}
+.socialnetwork__item:nth-child(1){
+background-color:#1da1f2;
+}
+.socialnetwork__item:nth-child(2){
+    background-color:#1877f2;
+}
+.socialnetwork__item:nth-child(3){
+background-color:#ff0000;
+}
+.socialnetwork__item:nth-child(4){
+    background-color:#e1306c;
+}
+.socialnetwork__item:nth-child(5){
+    background-color:#333;
+}
